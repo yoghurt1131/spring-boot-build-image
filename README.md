@@ -1,11 +1,11 @@
 # How to Build and Execute
 
 
-## Build Docker Image with Cloud Native Buildpacks
+## Build Native Image with GraalVM
 
 
 ```bash
-$ git switch cloud-native-buildpacks
+$ git switch native-image
 
 # build dockage image
 $ mvn spring-boot:build-image
