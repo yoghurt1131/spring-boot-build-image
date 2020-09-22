@@ -47,6 +47,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<imageName>build-image-cnb</imageName>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
