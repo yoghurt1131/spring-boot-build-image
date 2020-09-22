@@ -12,7 +12,7 @@ $ mvn spring-boot:build-image
 # or ./mvnw spring-boot:build-image
 
 # execute application
-$ docker run -it -p 8080:8080 build-image:0.0.1-SNAPSHOT
+$ docker run -it -p 8080:8080 build-image-native:0.0.1
 ```
 
 Access http://localhost:8080/greet and you are able to get response.
