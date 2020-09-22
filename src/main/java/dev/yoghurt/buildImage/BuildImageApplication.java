@@ -12,7 +12,7 @@ import org.springframework.web.servlet.function.ServerResponse;
 import static org.springframework.web.servlet.function.RouterFunctions.route;
 import static org.springframework.web.servlet.function.ServerResponse.ok;
 
-@SpringBootApplication
+@SpringBootApplication(proxyBeanMethods = false)
 public class BuildImageApplication {
 
 	public static void main(String[] args) {
