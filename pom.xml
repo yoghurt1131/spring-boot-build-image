@@ -63,6 +63,7 @@
 							<BP_BOOT_NATIVE_IMAGE>true</BP_BOOT_NATIVE_IMAGE>
 						</env>
 					</image>
+					<imageName>build-image-native:0.0.1</imageName>
 				</configuration>
 			</plugin>
 		</plugins>
